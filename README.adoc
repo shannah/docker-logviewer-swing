@@ -8,6 +8,12 @@ A simple Swing application to view the logs of a Docker container.
 docker compose logs -f | docker-logviewer-swing
 ```
 
+== Installation
+
+```bash
+npm install -g docker-logviewer-swing
+```
+
 == Building from source
 
 ```bash
