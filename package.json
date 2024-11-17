@@ -1,0 +1,27 @@
+{
+    "bin": {"docker-logviewer-swing": "jdeploy-bundle/jdeploy.js"},
+    "author": "Steve Hannah",
+    "description": "A docker log viewer",
+    "main": "index.js",
+    "preferGlobal": true,
+    "repository": "",
+    "version": "1.0.8",
+    "jdeploy": {
+        "jdk": false,
+        "javaVersion": "21",
+        "jar": "target/docker-logviewer-swing-1.0-SNAPSHOT.jar",
+        "javafx": false,
+        "title": "Docker Logviewer Swing"
+    },
+    "dependencies": {
+        "command-exists-promise": "^2.0.2",
+        "node-fetch": "2.6.7",
+        "tar": "^4.4.8",
+        "yauzl": "^2.10.0",
+        "shelljs": "^0.8.4"
+    },
+    "license": "ISC",
+    "name": "docker-logviewer-swing",
+    "files": ["jdeploy-bundle"],
+    "scripts": {"test": "echo \"Error: no test specified\" && exit 1"}
+}
